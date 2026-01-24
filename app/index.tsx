@@ -68,7 +68,12 @@ export default function Index() {
         <Link href="/todolist" style={styles.link}>
           <Text style={styles.linkText}>Todo List</Text>
         </Link>
-
+        <Link href="/location" style={styles.link}>
+          <Text style={styles.linkText}>Location</Text>
+        </Link>
+        <Link href="/location-quiz" style={styles.link}>
+          <Text style={styles.linkText}>Location-quiz</Text>
+        </Link>
       </View>
     </ScrollView>
   );
